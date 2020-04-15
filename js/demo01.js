@@ -35,12 +35,8 @@
             document.body.classList.remove("changeBG1");
             document.body.classList.add("changeBG2");
             backgroundColor = 1;
-        } else if (backgroundColor == 1) {
-            document.body.classList.remove("changeBG2");
-            document.body.classList.add("changeBG3");
-            backgroundColor = 2;
         } else {
-            document.body.classList.remove("changeBG3");
+            document.body.classList.remove("changeBG2");
             document.body.classList.add("changeBG1");
             backgroundColor = 0;
         }
